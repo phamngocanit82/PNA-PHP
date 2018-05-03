@@ -1,0 +1,9 @@
+Panel: https://khaitanbd.com:2083  ho?c https://112.78.6.19:2083
+User: khaitan
+Pass: Jx@nsL3H
+Email: khaitanbinhduong@yahoo.com.vn
+
+Ftp: ftp.khaitanbd.com ho?c ftp://112.78.6.19/
+User: khaitan
+Pass: Jx@nsL3H
+Email: khaitanbinhduong@yahoo.com.vn

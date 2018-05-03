@@ -1,0 +1,14 @@
+[12-Feb-2009 18:49:34] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 18:50:35] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 20:06:01] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 20:07:02] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 20:07:42] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 20:08:21] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 20:09:06] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 20:10:43] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 20:31:45] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 22:15:34] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[12-Feb-2009 22:16:50] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[13-Feb-2009 08:26:30] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[13-Feb-2009 12:37:48] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88
+[13-Feb-2009 12:39:23] PHP Fatal error:  Call to undefined method Register02_model::addRegister() in /home/supham/public_html/system/application/controllers/register.php on line 88

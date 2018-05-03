@@ -1,0 +1,434 @@
+@charset "utf-8";
+/* CSS Document */
+/***Control***/
+.button {
+	border : solid 1px #cccccc;
+	background: #385B88;
+	color : #ffffff;
+	font-weight : bold;
+	font-size : 12px;
+	padding: 2px 4px 2px 4px;
+	margin:5px 0px 0px 0px;
+}
+input,textarea,select {	
+	font-size:12px;		
+	font-weight:normal;
+}
+div.paging {
+	font-family:verdana,sans-serif,arial;
+	font-size : 12px;
+	padding:15px 0 15px 0;
+	clear:both;
+	text-align:center;	
+	}
+
+.paging a:link, .paging a:visited  {
+	padding:4px 7px;
+	background:#f8f8f8;
+	margin-right:3px;
+	border:1px solid #e1e1e0;
+	}
+	
+.paging a:hover {
+	margin-right:3px;
+	}	
+
+.paging span.active {
+	background:#9e9d9c;
+	color:#FFF;
+	padding:4px 7px;
+	margin-right:3px;
+	font-weight:bold;
+	}	
+	
+.paging span.inactive {
+	background:#f8f8f8;
+	padding:4px 7px;
+	color:#9e9d9c;
+	margin-right:3px;
+	font-weight:bold;
+	border:1px solid #e1e1e0;
+}
+/***Header***/
+.body{
+	padding:0px;
+	margin:0px;
+	background-color:#FFFFFF;
+}
+.header{
+	width:800px;
+	height:100px;
+	background:url(../image/logo.jpg) no-repeat left;
+}
+#header01{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px;
+	padding-top:4px;
+	height:21px;
+	background:url(../image/header.png) repeat-x 0px 1px;
+	font-style:normal;
+	color:#FFFFFF;
+}
+#header01 a{
+	color:#FFFFFF;
+	font-style:normal;
+	text-decoration:none;
+	font-weight:bold;	
+}
+#header01 a:hover{
+	color:#bee9f9;
+	font-style:normal;
+	font-weight:bold;}
+#header01 a b{
+	padding-left:30px;
+	background: url(../image/Header01.gif) no-repeat 20px 5px;
+}
+#header02{
+	width:800px;
+	height:5px; 
+	background-color:#ffffff;
+}
+
+/***Login***/
+#login{
+	margin-top:100px;
+	width:400px; 
+	height:200px; 
+	background:#c2d6eb;
+	border-left:1px solid #2449d5;
+	border-right:1px solid #2449d5;
+	border-top:1px solid #2449d5;
+	border-bottom:1px solid #2449d5;
+}
+#login #title{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 15px; 	
+  	padding-top:2px;
+	height:24px; 	 
+	background: #185da5;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+}
+#login #input{	
+	font-size:12px;		
+	font-weight:normal;
+	width:202px; 
+}
+#login #table{
+	margin-left:13px;
+	margin-top:32px;
+	width:320px;
+	border:0px;
+}
+#login a{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px; 
+	color:#1e1ef4;
+	font-style:normal;
+	text-decoration:none;
+	font-weight:bold;	
+}
+#login  a:hover{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px; 
+	color:#9c009c;
+	font-style:normal;
+	font-weight:bold;
+}
+/***Left***/
+.left{
+	width:176px; 
+  	float:left
+}
+#left01{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px;
+  	background-color:#ffffff; 
+  	border-left:1px solid #2449d5;
+	border-right:1px solid #2449d5;
+	border-top:1px solid #2449d5;
+	border-bottom:1px solid #2449d5;	  	
+}
+.left_menu_title{		
+	font-family:verdana,sans-serif,arial;
+  	font-size: 11px; 		
+	background: #185da5;
+	text-decoration: none;
+	font-weight: normal;
+	color: #ffffff;
+	text-align:left;	
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	border-top:1px solid #ffffff;	
+}
+.left_menu_title #mainmenu{
+	height:16px; 
+	text-indent:10px;	
+	padding-top:2px;
+	padding-bottom:2px;
+	border-bottom:1px solid #ffffff;	
+}
+
+.left_menu_title #submenu{
+	height:16px; 
+	text-indent:23px;
+	padding-top:1px;
+	padding-bottom:2px;
+	margin-bottom:1px;
+	background: #e0e9fc;
+	border-bottom:1px solid #ffffff;
+}
+#mainmenu a{
+	color:#FFFFFF;
+	font-style:normal;
+	text-decoration:none;
+	font-weight:bold;	
+}
+#mainmenu  a:hover{
+	color:#ffdb86;
+	font-style:normal;
+	font-weight:bold;
+}
+#submenu a{
+	color:#040462;
+	font-style:normal;
+	text-decoration:none;
+	font-weight:bold;	
+}
+#submenu  a:hover{
+	color:#9c009c;
+	font-style:normal;
+	font-weight:bold;
+}
+#left02{
+	margin-top:7px;
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px;
+  	background-color:#ffffff; 
+  	border-left:1px solid #2449d5;
+	border-right:1px solid #2449d5;
+	border-top:1px solid #2449d5;
+	border-bottom:1px solid #2449d5;	  	
+}
+
+/***right***/
+.right{
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	width:619px;
+	text-align:left;	
+	margin-left:3px;
+	word-wrap: break-word; 
+	float:right;
+	overflow:hidden;
+	background: #e0e9fc;
+	border-left:1px solid #2449d5;
+	border-right:1px solid #2449d5;
+	border-top:1px solid #2449d5;
+	border-bottom:1px solid #2449d5;	
+}
+.right #title{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px;
+	height:20px; 
+	padding-left:10px;	
+	padding-top:2px; 
+	background: #185da5;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+}
+.input_add{
+	font-family:verdana,sans-serif,arial;
+	font-size:12px;		
+	font-weight:normal;
+	width:490px;
+}
+.input_addtitle{
+	font-family:verdana,sans-serif,arial;
+	font-size:12px;		
+	font-weight:normal;
+	width:523px;
+}
+.require_add{
+	margin-top:4px;	
+	text-align:left;	
+	color:#ff0000;
+	width:495px;
+}
+#table_add{
+	font-family:verdana,sans-serif,arial;
+	font-size:12px;		
+	margin-left:9px;
+	margin-top:10px;		
+	width:600px;
+}
+#table_all{
+	font-family:verdana,sans-serif,arial;
+	font-size:12px;		
+	font-weight:normal;
+	margin-left:9px;
+	margin-top:10px;
+	padding: 0;		
+	width:600px;
+	border-left: 1px solid #C1DAD7;
+}
+.admin_form{
+	padding:0px;
+	margin:0px;
+	background-color:#e0e9fc;
+}
+#table_all th{
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left:6px;
+	padding-top:4px;
+	padding-bottom:6px;
+	background-color:#7c7ff8;	
+}
+#table_all td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;	
+	padding: 1px 6px 6px ;
+	color: #000000;
+}
+.register_form{
+	padding:0px;
+	margin:0px;
+	background-color:#FFFFFF;
+}
+#register_title{	
+	height:18px;
+	padding-top:8px;
+	padding-left:53px;
+	font-weight:bold;
+	border-bottom:2px solid #2449d5;
+	background:url(../image/iconTitle.gif) no-repeat 0px 2px;
+}
+#register_table{
+	width:618px;
+	margin-top:10px;
+	border-left:1px solid #2449d5;
+	border-right:1px solid #2449d5;	
+	border-top:1px solid #2449d5;
+	border-bottom:1px solid #2449d5;
+	background-color:#e0e9fc;
+}
+#findteacher_table{
+	width:613px;
+	margin-top:3px;
+	margin-left:3px;
+	border-left:1px solid #2449d5;
+	border-right:1px solid #2449d5;	
+	border-top:1px solid #2449d5;
+	border-bottom:1px solid #2449d5;
+	background-color:#e0e9fc;
+}
+#findteacher_table #title{
+	color:#000000;
+	font-weight:bold;
+}
+#findteacher_table #title_blue,#title_blue{
+	color:#AC08B2;
+	font-weight:bold;
+}
+.title_find_teacher{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:left;	
+	font-size:12px;
+	font-weight: bold;
+}
+#findteacher_table a:visited  {	
+	color:#ff0f0f;
+	text-decoration:none;
+}
+#findteacher_table a{
+	color:#040462;
+	font-style:normal;
+	text-decoration:none;
+}
+#findteacher_table a:hover{
+	color:#9c009c;
+	font-style:normal;	
+	text-decoration:none;
+}
+/***footer***/
+.footer{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px;
+	float:left;	
+	margin-top:10px;
+	width: 800px;	
+	border-top: 2px solid #2449d5;
+}
+/***annoucement,news***/
+.newstitle{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px;
+  	font-weight:bold;
+  	padding-left:2px;
+  	padding-top:2px;
+  	padding-bottom:4px;
+}
+.contents{
+	padding: 5px 2px;
+}
+.contents #image{
+	padding-right:5px;
+	float:left;
+}
+.contents p{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px; 
+	padding-left:2px;	
+}
+.newstitle a{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px; 
+	color:#1e1ef4;
+	font-style:normal;
+	text-decoration:none;
+	font-weight:bold;	
+}
+.newstitle  a:hover{
+	font-family:verdana,sans-serif,arial;
+  	font-size: 12px; 
+	color:#9c009c;
+	font-style:normal;
+	font-weight:bold;
+}
+.contents small{
+	float:left;
+}
+.break_news{
+	clear:both;
+	background-color:#2449d5;
+	height:1px;
+	margin-top:2px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:5px;
+}
+.require_input{
+	background: #6ab7db;
+	padding-top:3px;
+	height:18px;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:5px;
+}
